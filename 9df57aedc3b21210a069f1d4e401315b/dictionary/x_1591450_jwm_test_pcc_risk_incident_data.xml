@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="09877665c3f21210a069f1d4e40131b7" extends="task" label="PCC Risk Incident Data" max_length="40" name="x_1591450_jwm_test_pcc_risk_incident_data" type="collection">
+        <element label="PCC Center Event ID" max_length="40" name="pcc_center_event_id" type="integer"/>
+        <element label="PCC fac_id" max_length="40" name="pcc_fac_id" type="integer"/>
+        <element label="PCC Risk Incident ID" max_length="40" name="pcc_risk_incident_id" type="integer"/>
+        <element label="PCC Resident MRN" max_length="40" name="pcc_resident_mrn" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="PCC Resident Last Name" max_length="50" name="pcc_resident_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PCC Incident Type" max_length="50" name="pcc_incident_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PCC Resident First Name" max_length="50" name="pcc_resident_first_name" type="string"/>
+    </element>
+</database>
